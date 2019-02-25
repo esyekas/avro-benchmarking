@@ -1,0 +1,28 @@
+## Result:
+  Benchamrk Summary - String type [825ms]
+  {
+    #tests: 1000
+    #repetitions: 1
+
+
+    64 bytes payload:
+         mean_time[μs]: 151.84833899999873
+      size_of_msg[bytes]: 4.0
+  }
+
+  Benchamrk Summary - Map type [777ms]
+  {
+    #tests: 1000
+    #repetitions: 1
+
+    64 bytes payload:
+         mean_time[μs]: 141.17873400000133
+      size_of_msg[bytes]: 6.0
+  }
+
+
+
+## Conclusion:
+Simple type (String) takes less bytes and less processing time to seriliaze and deserialize it as compared to comples type(Map) in avro.
+
+

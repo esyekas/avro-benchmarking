@@ -1,0 +1,14 @@
+{
+ "namespace": "example.avro",
+ "type": "record",
+ "name": "Message_map",
+ "fields": [
+     {
+        "name": "map",
+         "type":
+            {   "type": "map",
+                "values":"string"
+            }
+     }
+ ]
+}

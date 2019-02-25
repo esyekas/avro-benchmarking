@@ -55,7 +55,7 @@ Schema format using map type:
 
 
 ## Conclusion:
-Simple type (String) takes less bytes and less processing time to seriliaze and deserialize it as compared to complex type(Map) in avro.
+Simple type (String) takes less bytes and less processing time to serialiaze and deserialize it as compared to complex type(Map) in avro.
 
 
 

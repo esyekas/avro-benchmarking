@@ -1,4 +1,4 @@
-# Avro-benchmarking
+# Avro Benchmarking
 Performance testing of the simple type and complex type of avro object by serlization and de-serilization
 
 Schema format using String type:
